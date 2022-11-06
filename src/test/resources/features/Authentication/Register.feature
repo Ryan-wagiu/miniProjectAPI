@@ -11,7 +11,7 @@ Feature: Register
     Examples:
       | email     | password | fullname  | status |
       | aa        | aa       | aa        | 400 |
-      | aaaab     | password | lengkap   | 200 |
+      | aaabb     | password | lengkap   | 200 |
       |           | passwoyy | akun baru | 400 |
       | skip      |          | akun baru | 400 |
       | skip      | passcoyy |           | 400 |
